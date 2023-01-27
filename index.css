@@ -26,11 +26,36 @@ h3, p {
 }
 
 h3 {
-    font-size: 2.625em;
+    font-size: 1.5em;
+    border-bottom: 1px solid #FEFEFE;
+    padding-bottom: 0.5em;
 }
 
+
 p {
-    font-size: 1.5em;
+    font-size: 2em;
+}
+
+
+.container-block {
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome, .sliders {
+    height: auto;
+    border: 3px solid #FEFEFE;
+    padding: 1em;
+    display: flexbox;
+}
+.welcome {
+    width: 30%;
+}
+
+.sliders {
+    width: 45%;
 }
 
 
