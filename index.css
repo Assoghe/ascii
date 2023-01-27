@@ -18,4 +18,20 @@
     padding-top: 3em;
 }
 
+/*font*/
+
+h3, p {
+    font-family: 'JetBrains Mono', monospace;
+    color: #FEFEFE;
+}
+
+h3 {
+    font-size: 2.625em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+
 
