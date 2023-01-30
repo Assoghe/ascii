@@ -1,0 +1,29 @@
+@media screen and (max-width: 1080px){
+  
+  /*page d'accueil*/
+  .container-block{
+    display: block !important;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+  }
+
+  .welcome {
+    width:90%;
+    margin-bottom: 2em;
+  }
+
+  .block-slide{
+    width: 90%;
+  }
+
+  /*qr code*/
+
+  .block-photo {
+    width: 90%;
+
+  }
+}
+
+
+
