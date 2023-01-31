@@ -11,30 +11,14 @@ body {
     background-attachment: fixed;
 
 }
-.background {
-    margin:0;
-    padding:0;
-    display: flex;
-    flex-direction: column;
-}
 
-.logo {
-    width: 100%;
-    text-align: center;
-    padding-top: 1em;
-    padding-bottom: 2em;
-}
-
-.logo img{
-    width: 10%;
-}
-
-/*font*/
+/*font bootstrap*/
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     line-height: 0px;
     margin-bottom: 0px;
 }
+
 
 h3, p {
     font-family: 'JetBrains Mono', monospace;
@@ -55,43 +39,31 @@ p {
 a {
     text-decoration: none;
 }
-.button-style{
-    background-color: #FEFEFE;
-    color: #D92E82;
-    font-size: 1em;
-    font-family: 'JetBrains Mono', monospace;
-    margin-top:1em;
-    padding: 0.5em 1em;
-    cursor: pointer;
-    text-decoration: none;
-}
 
-.button-style a {
-    text-decoration: none;
-}
-
-.template-photos {
-    margin-top: 1em;
-}
-
-
+/*img bootstrap configuration*/
 img, svg {
     width: 100%;
 }
 
-.block.description button:hover{
-    background-color: #D92E82;
-    color: #FEFEFE;
-    transition: ease-in-out 1s;
+/*configuration fichier base*/
+.background {
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
 }
 
-.block-photo button:hover{
-    background-color: #D92E82;
-    color: #FEFEFE;
-    transition: ease-in-out 1s;
+.logo {
+    width: 100%;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
 
-/*block*/ 
+.logo img{
+    width: 10%;
+}
+
 .container-block {
     margin-top: 1em;
     width: 100%;
@@ -117,7 +89,8 @@ img, svg {
 }
 
 .block.title img{
-    width: 40px;
+    width: 35px;
+    height: 35px;
 }
 
 .block-title h3 {
@@ -125,12 +98,13 @@ img, svg {
     margin-top: auto;
     margin-bottom: auto;
 }
+
+/*Home page*/
 .welcome {
     width: 30%;
 }
 
 /*slide*/
-
 .block-slide {
     width: 30%;
 }
@@ -180,6 +154,38 @@ span.carousel-control-next img{
     height: 100%;
     justify-content: space-around;
 }
+
+/*qr code*/
+.template-photos {
+    margin-top: 1em;
+}
+
+.button-style{
+    background-color: #FEFEFE;
+    color: #D92E82;
+    font-size: 1em;
+    font-family: 'JetBrains Mono', monospace;
+    margin-top:1em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-style a {
+    text-decoration: none;
+}
+
+.button-style:hover {
+    background-color: #D92E82;
+    color: #FEFEFE;
+    transition: ease-in-out 1s;
+}
+
+
+
+
+
+
 
 
 
