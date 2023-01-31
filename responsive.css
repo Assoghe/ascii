@@ -6,11 +6,9 @@
 
   /*page d'accueil*/
   .container-block{
-    display: block !important;
-    /*padding-left: 5%;
-    padding-right: 5%;
-    width: 100%;*/
+    display: flex !important;
     width: auto;
+    flex-direction: column-reverse;
   }
 
   .welcome {
