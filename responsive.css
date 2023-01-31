@@ -1,5 +1,9 @@
 @media screen and (max-width: 1080px){
   
+  p {
+    font-size: 1.3em;
+  }
+
   /*page d'accueil*/
   .container-block{
     display: block !important;
