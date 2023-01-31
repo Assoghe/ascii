@@ -3,13 +3,14 @@
   /*page d'accueil*/
   .container-block{
     display: block !important;
-    padding-left: 5%;
+    /*padding-left: 5%;
     padding-right: 5%;
-    width: 95%;
+    width: 100%;*/
+    width: auto;
   }
 
   .welcome {
-    width:90%;
+    width:auto;
     margin-bottom: 2em;
   }
 
@@ -20,7 +21,7 @@
   /*qr code*/
 
   .block-photo {
-    width: 90%;
+    width: auto;
 
   }
 }
