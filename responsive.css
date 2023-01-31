@@ -10,7 +10,12 @@
   .logo img{
     width: 35%;
   }
-  /*page d'accueil*/
+  
+  .block.title img{
+    width: 25px;
+    height: 25px;
+  }
+
   .container-block{
     display: flex !important;
     width: auto;
@@ -22,6 +27,7 @@
     margin-bottom: 2em;
   }
 
+  /*page d'accueil*/
   .block-slide{
     width: 100%;
   }
