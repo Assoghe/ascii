@@ -56,12 +56,11 @@ img, svg {
 .logo {
     width: 100%;
     text-align: center;
-    padding-top: 1em;
-    padding-bottom: 2em;
+    padding-top: .5em;
 }
 
 .logo img{
-    width: 10%;
+    width: 7%;
 }
 
 .container-block {
