@@ -1,9 +1,12 @@
 @media screen and (max-width: 1080px){
   
   p {
-    font-size: 1.3em;
+    font-size: 1.7em;
   }
 
+  .logo img{
+    width: 35%;
+  }
   /*page d'accueil*/
   .container-block{
     display: flex !important;
@@ -23,8 +26,7 @@
   /*qr code*/
 
   .block-photo {
-    width: auto;
-
+    width: 100%;
   }
 }
 

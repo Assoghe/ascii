@@ -26,10 +26,16 @@ body {
 }
 
 .logo img{
-    width: 12%;
+    width: 10%;
 }
 
 /*font*/
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    line-height: 0px;
+    margin-bottom: 0px;
+}
+
 h3, p {
     font-family: 'JetBrains Mono', monospace;
     color: #FEFEFE;
@@ -37,8 +43,6 @@ h3, p {
 
 h3 {
     font-size: 1.5em;
-    border-bottom: 1px solid #FEFEFE;
-    padding-bottom: 0.5em;
     color: #FEFEFE !important;
 }
 
@@ -51,7 +55,7 @@ p {
 a {
     text-decoration: none;
 }
-button {
+.button-style{
     background-color: #FEFEFE;
     color: #D92E82;
     font-size: 1em;
@@ -59,7 +63,17 @@ button {
     margin-top:1em;
     padding: 0.5em 1em;
     cursor: pointer;
+    text-decoration: none;
 }
+
+.button-style a {
+    text-decoration: none;
+}
+
+.template-photos {
+    margin-top: 1em;
+}
+
 
 img, svg {
     width: 100%;
@@ -94,8 +108,23 @@ img, svg {
     margin-bottom: 2em;
 }
 
+.block.title{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #FEFEFE;
+}
 
+.block.title img{
+    width: 40px;
+}
 
+.block-title h3 {
+    width: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 .welcome {
     width: 30%;
 }
@@ -117,6 +146,7 @@ img, svg {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    margin-top: 1em;
 }
 
 span.carousel-control-prev{
