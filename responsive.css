@@ -5,7 +5,7 @@
     display: block !important;
     padding-left: 5%;
     padding-right: 5%;
-    width: 90%;
+    width: 95%;
   }
 
   .welcome {
@@ -14,7 +14,7 @@
   }
 
   .block-slide{
-    width: 90%;
+    width: 100%;
   }
 
   /*qr code*/
